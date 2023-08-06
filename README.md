@@ -1,2 +1,2 @@
-# Physics Stimulations about various collisions
+# Physics Simulations about various collisions
 
