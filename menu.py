@@ -77,9 +77,9 @@ def main_menu():
 
         # Draw text on buttons
         font = pygame.font.SysFont(None, 30)
-        text1 = font.render("Bouncing Balls", True, (255, 255, 255))
+        text1 = font.render("Free Fall Under Gravity", True, (255, 255, 255))
         text2 = font.render("Projectile Motion", True, (255, 255, 255))
-        text3 = font.render("Collision", True, (255, 255, 255))  # Text for Game 3
+        text3 = font.render("2D Collision", True, (255, 255, 255))  # Text for Game 3
         menu_screen.blit(text1, (240, 110))
         menu_screen.blit(text2, (240, 210))
         menu_screen.blit(text3, (240, 310))  # Position for Game 3
