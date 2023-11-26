@@ -60,8 +60,11 @@ class Projectile:
         for pos in self.path[:-1]:
             pygame.draw.circle(display, WHITE, pos, 1)
 
+#Converts the angle from degree to radians
 def convert_radian(angle):
     return math.radians(angle)
+
+#Moves the projectile by calculating the angle based on positions
 def get_angle(pos, origin):
         x, y = pos
         ox, oy = origin
